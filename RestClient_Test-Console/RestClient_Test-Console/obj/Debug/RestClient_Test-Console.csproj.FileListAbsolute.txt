@@ -1,0 +1,10 @@
+D:\C#-Code\RestClient_Test-Console\RestClient_Test-Console\bin\Debug\RestClient_Test-Console.exe.config
+D:\C#-Code\RestClient_Test-Console\RestClient_Test-Console\bin\Debug\RestClient_Test-Console.exe
+D:\C#-Code\RestClient_Test-Console\RestClient_Test-Console\bin\Debug\RestClient_Test-Console.pdb
+D:\C#-Code\RestClient_Test-Console\RestClient_Test-Console\bin\Debug\Newtonsoft.Json.dll
+D:\C#-Code\RestClient_Test-Console\RestClient_Test-Console\bin\Debug\System.Net.Http.Formatting.dll
+D:\C#-Code\RestClient_Test-Console\RestClient_Test-Console\bin\Debug\Newtonsoft.Json.xml
+D:\C#-Code\RestClient_Test-Console\RestClient_Test-Console\bin\Debug\System.Net.Http.Formatting.xml
+D:\C#-Code\RestClient_Test-Console\RestClient_Test-Console\obj\Debug\RestClient_Test-Console.csprojResolveAssemblyReference.cache
+D:\C#-Code\RestClient_Test-Console\RestClient_Test-Console\obj\Debug\RestClient_Test-Console.exe
+D:\C#-Code\RestClient_Test-Console\RestClient_Test-Console\obj\Debug\RestClient_Test-Console.pdb

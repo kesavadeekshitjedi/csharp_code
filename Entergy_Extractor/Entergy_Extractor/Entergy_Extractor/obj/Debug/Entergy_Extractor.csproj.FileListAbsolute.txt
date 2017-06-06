@@ -1,0 +1,6 @@
+D:\GitHub\csharp_code\Entergy_Extractor\Entergy_Extractor\Entergy_Extractor\bin\Debug\Entergy_Extractor.exe.config
+D:\GitHub\csharp_code\Entergy_Extractor\Entergy_Extractor\Entergy_Extractor\bin\Debug\Entergy_Extractor.exe
+D:\GitHub\csharp_code\Entergy_Extractor\Entergy_Extractor\Entergy_Extractor\bin\Debug\Entergy_Extractor.pdb
+D:\GitHub\csharp_code\Entergy_Extractor\Entergy_Extractor\Entergy_Extractor\obj\Debug\Entergy_Extractor.csprojResolveAssemblyReference.cache
+D:\GitHub\csharp_code\Entergy_Extractor\Entergy_Extractor\Entergy_Extractor\obj\Debug\Entergy_Extractor.exe
+D:\GitHub\csharp_code\Entergy_Extractor\Entergy_Extractor\Entergy_Extractor\obj\Debug\Entergy_Extractor.pdb
