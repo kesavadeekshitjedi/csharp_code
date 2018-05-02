@@ -1,0 +1,14 @@
+C:\github-repos-deek\csharp_code\StockPrice\StockPrice\StockPrice\bin\Debug\StockPrice.exe.config
+C:\github-repos-deek\csharp_code\StockPrice\StockPrice\StockPrice\bin\Debug\StockPrice.exe
+C:\github-repos-deek\csharp_code\StockPrice\StockPrice\StockPrice\bin\Debug\StockPrice.pdb
+C:\github-repos-deek\csharp_code\StockPrice\StockPrice\StockPrice\bin\Debug\log4net.dll
+C:\github-repos-deek\csharp_code\StockPrice\StockPrice\StockPrice\bin\Debug\Newtonsoft.Json.dll
+C:\github-repos-deek\csharp_code\StockPrice\StockPrice\StockPrice\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\github-repos-deek\csharp_code\StockPrice\StockPrice\StockPrice\bin\Debug\RestSharp.dll
+C:\github-repos-deek\csharp_code\StockPrice\StockPrice\StockPrice\bin\Debug\log4net.xml
+C:\github-repos-deek\csharp_code\StockPrice\StockPrice\StockPrice\bin\Debug\Newtonsoft.Json.xml
+C:\github-repos-deek\csharp_code\StockPrice\StockPrice\StockPrice\obj\Debug\StockPrice.csprojResolveAssemblyReference.cache
+C:\github-repos-deek\csharp_code\StockPrice\StockPrice\StockPrice\obj\Debug\StockPrice.csproj.CoreCompileInputs.cache
+C:\github-repos-deek\csharp_code\StockPrice\StockPrice\StockPrice\obj\Debug\StockPrice.csproj.CopyComplete
+C:\github-repos-deek\csharp_code\StockPrice\StockPrice\StockPrice\obj\Debug\StockPrice.exe
+C:\github-repos-deek\csharp_code\StockPrice\StockPrice\StockPrice\obj\Debug\StockPrice.pdb

@@ -1,0 +1,94 @@
+2018-05-02 16:37:22,022 [1] INFO  StockPrice.DBManagement - Connection state for RMT-FS-STOCK: Open
+2018-05-02 16:37:22,103 [1] INFO  StockPrice.GetStockPrice - Get Stock info for :CA
+2018-05-02 16:37:22,126 [1] DEBUG StockPrice.GetStockPrice - https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=CA&apikey=7V5RNT4HHZAP6FM6
+2018-05-02 16:37:23,151 [1] INFO  StockPrice.GetStockPrice - Successfully retrieved info from AlphaVantage
+2018-05-02 16:37:23,687 [1] INFO  StockPrice.GetStockPrice - CA
+2018-05-02 16:37:23,687 [1] INFO  StockPrice.GetStockPrice - 34.7900
+2018-05-02 16:37:23,687 [1] INFO  StockPrice.GetStockPrice - 33.9400
+2018-05-02 16:37:23,690 [1] INFO  StockPrice.GetStockPrice - 33.9600
+2018-05-02 17:08:52,069 [1] INFO  StockPrice.DBManagement - Connection state for RMT-FS-STOCK: Open
+2018-05-02 17:08:52,115 [1] INFO  StockPrice.GetStockPrice - Get Stock info for :CA
+2018-05-02 17:08:52,136 [1] DEBUG StockPrice.GetStockPrice - https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=CA&apikey=7V5RNT4HHZAP6FM6
+2018-05-02 17:08:53,154 [1] INFO  StockPrice.GetStockPrice - Successfully retrieved info from AlphaVantage
+2018-05-02 17:08:53,667 [1] INFO  StockPrice.GetStockPrice - CA
+2018-05-02 17:08:53,667 [1] INFO  StockPrice.GetStockPrice - 34.7900
+2018-05-02 17:08:53,668 [1] INFO  StockPrice.GetStockPrice - 33.9400
+2018-05-02 17:08:53,668 [1] INFO  StockPrice.GetStockPrice - 33.9600
+2018-05-02 17:09:08,189 [1] INFO  StockPrice.DBManagement - Connection state for RMT-FS-STOCK: Open
+2018-05-02 17:09:08,276 [1] INFO  StockPrice.GetStockPrice - Get Stock info for :CA
+2018-05-02 17:09:08,301 [1] DEBUG StockPrice.GetStockPrice - https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=CA&apikey=7V5RNT4HHZAP6FM6
+2018-05-02 17:09:09,701 [1] INFO  StockPrice.GetStockPrice - Successfully retrieved info from AlphaVantage
+2018-05-02 17:09:10,462 [1] INFO  StockPrice.GetStockPrice - CA
+2018-05-02 17:09:10,462 [1] INFO  StockPrice.GetStockPrice - 34.7900
+2018-05-02 17:09:10,463 [1] INFO  StockPrice.GetStockPrice - 33.9400
+2018-05-02 17:09:10,463 [1] INFO  StockPrice.GetStockPrice - 33.9600
+2018-05-02 17:09:41,168 [1] INFO  StockPrice.DBManagement - Connection state for RMT-FS-STOCK: Open
+2018-05-02 17:09:41,217 [1] INFO  StockPrice.GetStockPrice - Get Stock info for :CA
+2018-05-02 17:09:41,240 [1] DEBUG StockPrice.GetStockPrice - https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=CA&apikey=7V5RNT4HHZAP6FM6
+2018-05-02 17:09:42,147 [1] INFO  StockPrice.GetStockPrice - Successfully retrieved info from AlphaVantage
+2018-05-02 17:09:42,753 [1] INFO  StockPrice.GetStockPrice - CA
+2018-05-02 17:09:42,754 [1] INFO  StockPrice.GetStockPrice - 34.7900
+2018-05-02 17:09:42,755 [1] INFO  StockPrice.GetStockPrice - 33.9400
+2018-05-02 17:09:42,755 [1] INFO  StockPrice.GetStockPrice - 33.9600
+2018-05-02 17:15:40,350 [1] INFO  StockPrice.DBManagement - Connection state for RMT-FS-STOCK: Open
+2018-05-02 17:15:40,397 [1] INFO  StockPrice.GetStockPrice - Get Stock info for :CA
+2018-05-02 17:15:40,418 [1] DEBUG StockPrice.GetStockPrice - https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=CA&apikey=7V5RNT4HHZAP6FM6
+2018-05-02 17:15:41,490 [1] INFO  StockPrice.GetStockPrice - Successfully retrieved info from AlphaVantage
+2018-05-02 17:15:41,987 [1] INFO  StockPrice.GetStockPrice - CA
+2018-05-02 17:15:41,987 [1] INFO  StockPrice.GetStockPrice - 34.7900
+2018-05-02 17:15:41,987 [1] INFO  StockPrice.GetStockPrice - 33.9400
+2018-05-02 17:15:41,988 [1] INFO  StockPrice.GetStockPrice - 33.9600
+2018-05-02 17:16:02,044 [1] INFO  StockPrice.DBManagement - GE:12.12:25:4/17/2018:GE
+2018-05-02 17:16:02,045 [1] INFO  StockPrice.DBManagement - Stock GE added
+2018-05-02 17:16:30,287 [1] INFO  StockPrice.DBManagement - {GE:12.12:25:4/17/2018:GE}
+2018-05-02 17:30:17,647 [1] INFO  StockPrice.DBManagement - Connection state for RMT-FS-STOCK: Open
+2018-05-02 17:30:17,695 [1] INFO  StockPrice.GetStockPrice - Get Stock info for :CA
+2018-05-02 17:30:17,716 [1] DEBUG StockPrice.GetStockPrice - https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=CA&apikey=7V5RNT4HHZAP6FM6
+2018-05-02 17:30:18,656 [1] INFO  StockPrice.GetStockPrice - Successfully retrieved info from AlphaVantage
+2018-05-02 17:30:19,101 [1] INFO  StockPrice.GetStockPrice - CA
+2018-05-02 17:30:19,101 [1] INFO  StockPrice.GetStockPrice - 34.7900
+2018-05-02 17:30:19,102 [1] INFO  StockPrice.GetStockPrice - 33.9400
+2018-05-02 17:30:19,102 [1] INFO  StockPrice.GetStockPrice - 33.9600
+2018-05-02 17:30:59,366 [1] INFO  StockPrice.DBManagement - GE:12.12:15:4/17/2018:GE
+2018-05-02 17:30:59,366 [1] INFO  StockPrice.DBManagement - Stock GE added
+2018-05-02 17:31:22,864 [1] INFO  StockPrice.DBManagement - Abercrombie and Fitch:26.51:15:4/17/2018:ANF
+2018-05-02 17:31:22,868 [1] INFO  StockPrice.DBManagement - Stock ANF added
+2018-05-02 17:31:43,962 [1] INFO  StockPrice.DBManagement - {GE:12.12:15:4/17/2018:GE, Abercrombie and Fitch:26.51:15:4/17/2018:ANF}
+2018-05-02 17:33:04,983 [1] INFO  StockPrice.DBManagement - Connection state for RMT-FS-STOCK: Open
+2018-05-02 17:33:05,031 [1] INFO  StockPrice.GetStockPrice - Get Stock info for :CA
+2018-05-02 17:33:05,051 [1] DEBUG StockPrice.GetStockPrice - https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=CA&apikey=7V5RNT4HHZAP6FM6
+2018-05-02 17:33:06,204 [1] INFO  StockPrice.GetStockPrice - Successfully retrieved info from AlphaVantage
+2018-05-02 17:33:06,818 [1] INFO  StockPrice.GetStockPrice - CA
+2018-05-02 17:33:06,818 [1] INFO  StockPrice.GetStockPrice - 34.7900
+2018-05-02 17:33:06,819 [1] INFO  StockPrice.GetStockPrice - 33.9400
+2018-05-02 17:33:06,819 [1] INFO  StockPrice.GetStockPrice - 33.9600
+2018-05-02 17:33:25,827 [1] INFO  StockPrice.DBManagement - abc:12.12:15:4/17/2018:abc
+2018-05-02 17:33:25,827 [1] INFO  StockPrice.DBManagement - Stock abc added
+2018-05-02 17:33:38,929 [1] INFO  StockPrice.DBManagement - Ge:11.2:50:4/17/2018:GE
+2018-05-02 17:33:38,932 [1] INFO  StockPrice.DBManagement - Stock GE added
+2018-05-02 17:33:40,170 [1] INFO  StockPrice.DBManagement - {abc:12.12:15:4/17/2018:abc, Ge:11.2:50:4/17/2018:GE}
+2018-05-02 17:33:42,797 [1] DEBUG StockPrice.DBManagement - insert into stock_info(stock_fullname,stock_buy_price,stock_units,stock_date,stock_ticker) values ('abc','12.12','15','4/17/2018','abc')
+2018-05-02 17:50:38,078 [1] INFO  StockPrice.DBManagement - Connection state for RMT-FS-STOCK: Open
+2018-05-02 17:50:38,126 [1] INFO  StockPrice.GetStockPrice - Get Stock info for :CA
+2018-05-02 17:50:38,148 [1] DEBUG StockPrice.GetStockPrice - https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=CA&apikey=7V5RNT4HHZAP6FM6
+2018-05-02 17:50:39,322 [1] INFO  StockPrice.GetStockPrice - Successfully retrieved info from AlphaVantage
+2018-05-02 17:50:40,015 [1] INFO  StockPrice.GetStockPrice - CA
+2018-05-02 17:50:40,015 [1] INFO  StockPrice.GetStockPrice - 34.7900
+2018-05-02 17:50:40,016 [1] INFO  StockPrice.GetStockPrice - 33.9400
+2018-05-02 17:50:40,016 [1] INFO  StockPrice.GetStockPrice - 33.9600
+2018-05-02 17:51:09,821 [1] INFO  StockPrice.DBManagement - Abercrombie and Fitch:28.61:15:4/18/2018:ANF
+2018-05-02 17:51:09,821 [1] INFO  StockPrice.DBManagement - Stock ANF added
+2018-05-02 17:51:33,690 [1] INFO  StockPrice.DBManagement - GE:13.68:15:4/19/2018:GE
+2018-05-02 17:51:33,694 [1] INFO  StockPrice.DBManagement - Stock GE added
+2018-05-02 17:51:57,215 [1] INFO  StockPrice.DBManagement - Intel Corporation:51.22:5:4/20/2018:INTC
+2018-05-02 17:51:57,220 [1] INFO  StockPrice.DBManagement - Stock INTC added
+2018-05-02 17:52:26,802 [1] INFO  StockPrice.DBManagement - Ford Motor Company:11.63:25:4/30/2018:F
+2018-05-02 17:52:26,804 [1] INFO  StockPrice.DBManagement - Stock F added
+2018-05-02 17:52:53,497 [1] INFO  StockPrice.DBManagement - Sirius XM :6.35:10:5/2/2018:SIRI
+2018-05-02 17:52:53,501 [1] INFO  StockPrice.DBManagement - Stock SIRI added
+2018-05-02 17:52:55,192 [1] INFO  StockPrice.DBManagement - {Abercrombie and Fitch:28.61:15:4/18/2018:ANF, GE:13.68:15:4/19/2018:GE, Intel Corporation:51.22:5:4/20/2018:INTC, Ford Motor Company:11.63:25:4/30/2018:F, Sirius XM :6.35:10:5/2/2018:SIRI}
+2018-05-02 17:53:02,727 [1] DEBUG StockPrice.DBManagement - insert into stock_info(stock_fullname,stock_buy_price,stock_units,stock_date,stock_ticker) values ('Abercrombie and Fitch','28.61','15','4/18/2018','ANF')
+2018-05-02 17:53:09,299 [1] DEBUG StockPrice.DBManagement - insert into stock_info(stock_fullname,stock_buy_price,stock_units,stock_date,stock_ticker) values ('GE','13.68','15','4/19/2018','GE')
+2018-05-02 17:53:09,326 [1] DEBUG StockPrice.DBManagement - insert into stock_info(stock_fullname,stock_buy_price,stock_units,stock_date,stock_ticker) values ('Intel Corporation','51.22','5','4/20/2018','INTC')
+2018-05-02 17:53:09,352 [1] DEBUG StockPrice.DBManagement - insert into stock_info(stock_fullname,stock_buy_price,stock_units,stock_date,stock_ticker) values ('Ford Motor Company','11.63','25','4/30/2018','F')
+2018-05-02 17:53:09,374 [1] DEBUG StockPrice.DBManagement - insert into stock_info(stock_fullname,stock_buy_price,stock_units,stock_date,stock_ticker) values ('Sirius XM ','6.35','10','5/2/2018','SIRI')
