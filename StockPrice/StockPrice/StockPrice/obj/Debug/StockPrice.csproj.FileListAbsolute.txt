@@ -12,3 +12,15 @@ C:\github-repos-deek\csharp_code\StockPrice\StockPrice\StockPrice\obj\Debug\Stoc
 C:\github-repos-deek\csharp_code\StockPrice\StockPrice\StockPrice\obj\Debug\StockPrice.csproj.CopyComplete
 C:\github-repos-deek\csharp_code\StockPrice\StockPrice\StockPrice\obj\Debug\StockPrice.exe
 C:\github-repos-deek\csharp_code\StockPrice\StockPrice\StockPrice\obj\Debug\StockPrice.pdb
+D:\GitHub\csharp_code\StockPrice\StockPrice\StockPrice\bin\Debug\StockPrice.exe.config
+D:\GitHub\csharp_code\StockPrice\StockPrice\StockPrice\bin\Debug\StockPrice.exe
+D:\GitHub\csharp_code\StockPrice\StockPrice\StockPrice\bin\Debug\StockPrice.pdb
+D:\GitHub\csharp_code\StockPrice\StockPrice\StockPrice\bin\Debug\log4net.dll
+D:\GitHub\csharp_code\StockPrice\StockPrice\StockPrice\bin\Debug\Newtonsoft.Json.dll
+D:\GitHub\csharp_code\StockPrice\StockPrice\StockPrice\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\GitHub\csharp_code\StockPrice\StockPrice\StockPrice\bin\Debug\RestSharp.dll
+D:\GitHub\csharp_code\StockPrice\StockPrice\StockPrice\bin\Debug\log4net.xml
+D:\GitHub\csharp_code\StockPrice\StockPrice\StockPrice\bin\Debug\Newtonsoft.Json.xml
+D:\GitHub\csharp_code\StockPrice\StockPrice\StockPrice\obj\Debug\StockPrice.csprojResolveAssemblyReference.cache
+D:\GitHub\csharp_code\StockPrice\StockPrice\StockPrice\obj\Debug\StockPrice.exe
+D:\GitHub\csharp_code\StockPrice\StockPrice\StockPrice\obj\Debug\StockPrice.pdb

@@ -14,6 +14,8 @@ namespace StockPrice
     {
         OracleConnection dbConn;
         private static readonly ILog logger = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+        List<string> currentStockList = new List<string>();
+
         public OracleConnection createOracleConnection(string datasourceName, string userName, string password)
         {
             dbConn= new OracleConnection();
@@ -38,6 +40,23 @@ namespace StockPrice
             return dbConn;
         }
 
+        public List<string> getListofStocks(OracleConnection dbConnection)
+        {
+
+            OracleCommand getStocks = dbConnection.CreateCommand();
+            getStocks.CommandText = "select STOCK_TICKER from STOCK_INFO";
+            OracleDataReader stockReader = getStocks.ExecuteReader();
+            while(stockReader.Read())
+            {
+                if(!currentStockList.Contains((string)stockReader["STOCK_TICKER"]))
+                {
+                    currentStockList.Add((string)stockReader["STOCK_TICKER"]);
+                }
+            }
+
+            return currentStockList;
+
+        }
         public void insertNewStocks(OracleConnection oraConn)
         {
             string userResponse = "Yes";
