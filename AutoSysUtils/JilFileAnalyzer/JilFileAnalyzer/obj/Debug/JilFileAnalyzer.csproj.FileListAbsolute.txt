@@ -1,0 +1,10 @@
+C:\github-repos-deek\csharp_code\AutoSysUtils\JilFileAnalyzer\JilFileAnalyzer\bin\Debug\JilFileAnalyzer.exe.config
+C:\github-repos-deek\csharp_code\AutoSysUtils\JilFileAnalyzer\JilFileAnalyzer\bin\Debug\JilFileAnalyzer.exe
+C:\github-repos-deek\csharp_code\AutoSysUtils\JilFileAnalyzer\JilFileAnalyzer\bin\Debug\JilFileAnalyzer.pdb
+C:\github-repos-deek\csharp_code\AutoSysUtils\JilFileAnalyzer\JilFileAnalyzer\bin\Debug\log4net.dll
+C:\github-repos-deek\csharp_code\AutoSysUtils\JilFileAnalyzer\JilFileAnalyzer\bin\Debug\log4net.xml
+C:\github-repos-deek\csharp_code\AutoSysUtils\JilFileAnalyzer\JilFileAnalyzer\obj\Debug\JilFileAnalyzer.csprojResolveAssemblyReference.cache
+C:\github-repos-deek\csharp_code\AutoSysUtils\JilFileAnalyzer\JilFileAnalyzer\obj\Debug\JilFileAnalyzer.csproj.CoreCompileInputs.cache
+C:\github-repos-deek\csharp_code\AutoSysUtils\JilFileAnalyzer\JilFileAnalyzer\obj\Debug\JilFileAnalyzer.csproj.CopyComplete
+C:\github-repos-deek\csharp_code\AutoSysUtils\JilFileAnalyzer\JilFileAnalyzer\obj\Debug\JilFileAnalyzer.exe
+C:\github-repos-deek\csharp_code\AutoSysUtils\JilFileAnalyzer\JilFileAnalyzer\obj\Debug\JilFileAnalyzer.pdb
