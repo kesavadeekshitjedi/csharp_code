@@ -1,0 +1,10 @@
+C:\github-repos\csharp_code\AutoSysUtils\GetJobsByMachine\GetJobsByMachine\GetJobsByMachine\bin\Debug\GetJobsByMachine.exe.config
+C:\github-repos\csharp_code\AutoSysUtils\GetJobsByMachine\GetJobsByMachine\GetJobsByMachine\bin\Debug\GetJobsByMachine.exe
+C:\github-repos\csharp_code\AutoSysUtils\GetJobsByMachine\GetJobsByMachine\GetJobsByMachine\bin\Debug\GetJobsByMachine.pdb
+C:\github-repos\csharp_code\AutoSysUtils\GetJobsByMachine\GetJobsByMachine\GetJobsByMachine\obj\Debug\GetJobsByMachine.csprojAssemblyReference.cache
+C:\github-repos\csharp_code\AutoSysUtils\GetJobsByMachine\GetJobsByMachine\GetJobsByMachine\obj\Debug\GetJobsByMachine.csproj.CoreCompileInputs.cache
+C:\github-repos\csharp_code\AutoSysUtils\GetJobsByMachine\GetJobsByMachine\GetJobsByMachine\obj\Debug\GetJobsByMachine.exe
+C:\github-repos\csharp_code\AutoSysUtils\GetJobsByMachine\GetJobsByMachine\GetJobsByMachine\obj\Debug\GetJobsByMachine.pdb
+C:\github-repos\csharp_code\AutoSysUtils\GetJobsByMachine\GetJobsByMachine\GetJobsByMachine\bin\Debug\log4net.dll
+C:\github-repos\csharp_code\AutoSysUtils\GetJobsByMachine\GetJobsByMachine\GetJobsByMachine\bin\Debug\log4net.xml
+C:\github-repos\csharp_code\AutoSysUtils\GetJobsByMachine\GetJobsByMachine\GetJobsByMachine\obj\Debug\GetJobsByMachine.csproj.CopyComplete
