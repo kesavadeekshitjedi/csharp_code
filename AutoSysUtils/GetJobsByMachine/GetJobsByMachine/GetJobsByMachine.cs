@@ -85,7 +85,7 @@ namespace GetJobsByMachine
                             currentJobName = null;
                             newJobName = null;
                             string tempjobNameString = currentJilLine.Split(':')[1];
-                            newJobName = tempjobNameString.Substring(0, tempjobNameString.IndexOf("job_type")).Trim();
+                            currentJobName = tempjobNameString.Substring(0, tempjobNameString.IndexOf("job_type")).Trim();
                             xJM.newJobDefinitionString += xJM.jobDefString;
                             
                             if(xJM.jobDefString.Contains("machine: "+xMachine))
