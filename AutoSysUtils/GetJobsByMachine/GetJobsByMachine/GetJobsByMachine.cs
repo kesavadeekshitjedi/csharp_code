@@ -29,10 +29,12 @@ namespace GetJobsByMachine
             Console.WriteLine("The file is at " + jilFilePath);
             Console.WriteLine("Enter the machine for which jobs have to be extracted.");
             string xMachine = Console.ReadLine().Trim();
+            Console.WriteLine("Enter the path for the output files");
+            string outputPath = Console.ReadLine().Trim();
             if (File.Exists(jilFilePath))
             {
-                xJM.machineFileWriter1 = new StreamWriter("d:\\goodjobs.txt");
-                xJM.machineFileWriter2 = new StreamWriter("d:\\restjobs.txt");
+                xJM.machineFileWriter1 = new StreamWriter(outputPath+"\\"+xMachine+"_jobs.jil");
+                xJM.machineFileWriter2 = new StreamWriter(outputPath + "\\AllOtherJobs.jil");
                 logger.Info("Jil file found");
                 bool jobFound = false;
                 xJM.jilFileReader = new StreamReader(jilFilePath);
@@ -149,7 +151,7 @@ namespace GetJobsByMachine
                 }
                 xJM.machineFileWriter1.Close();
                 xJM.machineFileWriter2.Close();
-                Console.ReadLine();
+                
             }
             else
             {
