@@ -20,6 +20,8 @@ namespace AddStatusAttribute
             Console.WriteLine("Enter the full path to the jil file: ");
             string jilFilePath = Console.ReadLine();
             Console.WriteLine("The file is at " + jilFilePath);
+            Console.WriteLine("Enter the string (ON_ICE, ON_HOLD, SUCCESS, FAILURE, INACTIVE, TERMINATED) for the status attribute: ");
+            string statusAttribute = Console.ReadLine();
             if (File.Exists(jilFilePath))
             {
                 asj.jilFileReader = new StreamReader(jilFilePath);
@@ -36,7 +38,7 @@ namespace AddStatusAttribute
                     {
 
                         asj.statusJilWriter.WriteLine(currentJilLine);
-                        asj.statusJilWriter.WriteLine("status: ON_ICE");
+                        asj.statusJilWriter.WriteLine("status: "+statusAttribute);
                         continue;
                     }
                     asj.statusJilWriter.WriteLine(currentJilLine);
