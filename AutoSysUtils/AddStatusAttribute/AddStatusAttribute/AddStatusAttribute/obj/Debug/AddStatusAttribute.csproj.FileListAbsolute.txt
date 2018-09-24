@@ -1,0 +1,10 @@
+C:\github-repos\csharp_code\AutoSysUtils\AddStatusAttribute\AddStatusAttribute\AddStatusAttribute\bin\Debug\AddStatusAttribute.exe.config
+C:\github-repos\csharp_code\AutoSysUtils\AddStatusAttribute\AddStatusAttribute\AddStatusAttribute\bin\Debug\AddStatusAttribute.exe
+C:\github-repos\csharp_code\AutoSysUtils\AddStatusAttribute\AddStatusAttribute\AddStatusAttribute\bin\Debug\AddStatusAttribute.pdb
+C:\github-repos\csharp_code\AutoSysUtils\AddStatusAttribute\AddStatusAttribute\AddStatusAttribute\bin\Debug\log4net.dll
+C:\github-repos\csharp_code\AutoSysUtils\AddStatusAttribute\AddStatusAttribute\AddStatusAttribute\bin\Debug\log4net.xml
+C:\github-repos\csharp_code\AutoSysUtils\AddStatusAttribute\AddStatusAttribute\AddStatusAttribute\obj\Debug\AddStatusAttribute.csprojAssemblyReference.cache
+C:\github-repos\csharp_code\AutoSysUtils\AddStatusAttribute\AddStatusAttribute\AddStatusAttribute\obj\Debug\AddStatusAttribute.csproj.CoreCompileInputs.cache
+C:\github-repos\csharp_code\AutoSysUtils\AddStatusAttribute\AddStatusAttribute\AddStatusAttribute\obj\Debug\AddStatusAttribute.csproj.CopyComplete
+C:\github-repos\csharp_code\AutoSysUtils\AddStatusAttribute\AddStatusAttribute\AddStatusAttribute\obj\Debug\AddStatusAttribute.exe
+C:\github-repos\csharp_code\AutoSysUtils\AddStatusAttribute\AddStatusAttribute\AddStatusAttribute\obj\Debug\AddStatusAttribute.pdb
