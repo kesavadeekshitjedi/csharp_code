@@ -1,685 +1,255 @@
-2018-09-24 14:52:49,892 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 15:05:26,740 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 15:05:26,755 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
-2018-09-24 15:06:15,077 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 15:06:15,092 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
-2018-09-24 15:06:29,355 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 15:06:29,367 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
-2018-09-24 15:11:58,758 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 15:11:58,770 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
-2018-09-24 15:17:13,837 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 15:17:13,849 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
-2018-09-24 15:17:24,275 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 15:17:34,835 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
-2018-09-24 15:18:36,821 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 15:18:41,402 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
-2018-09-24 15:18:45,522 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - database.properties file found. Proceeding to gather info...
-2018-09-24 15:18:49,414 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_HOST_NAME=
-2018-09-24 15:19:22,837 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 15:19:27,539 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
-2018-09-24 15:19:28,950 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - database.properties file found. Proceeding to gather info...
-2018-09-24 15:19:29,590 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_HOST_NAME=SB-EM1
-2018-09-24 15:19:31,452 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - SB-EM1
-2018-09-24 15:19:41,195 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_PORT_NUMBER=1433
-2018-09-24 15:19:44,631 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - 1433
-2018-09-24 15:20:10,429 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 15:20:15,401 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
-2018-09-24 15:20:16,789 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - database.properties file found. Proceeding to gather info...
-2018-09-24 15:20:17,999 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_HOST_NAME=SB-EM1
-2018-09-24 15:20:19,658 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - SB-EM1
-2018-09-24 15:20:22,508 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_PORT_NUMBER=1433
-2018-09-24 15:20:29,548 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - 1433
-2018-09-24 15:20:31,175 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_USER=aedbadmin
-2018-09-24 15:20:32,389 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - aedbadmin
-2018-09-24 15:20:33,168 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_PASS=Test1234
-2018-09-24 15:20:34,665 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Test1234
-2018-09-24 15:20:35,525 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_NAME=AEDB
-2018-09-24 15:20:37,126 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - AEDB
-2018-09-24 15:27:52,075 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 15:27:57,872 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 15:27:57,885 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
-2018-09-24 15:27:57,885 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - database.properties file found. Proceeding to gather info...
-2018-09-24 15:27:57,885 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_HOST_NAME=SB-EM1
-2018-09-24 15:27:57,885 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - SB-EM1
-2018-09-24 15:27:57,886 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_PORT_NUMBER=1433
-2018-09-24 15:27:57,886 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - 1433
-2018-09-24 15:27:57,886 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_USER=aedbadmin
-2018-09-24 15:27:57,886 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - aedbadmin
-2018-09-24 15:27:57,886 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_PASS=Test1234
-2018-09-24 15:27:57,887 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Test1234
-2018-09-24 15:27:57,887 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_NAME=AEDB
-2018-09-24 15:27:57,887 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - AEDB
-2018-09-24 15:28:16,242 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 15:28:16,262 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
-2018-09-24 15:28:16,262 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - database.properties file found. Proceeding to gather info...
-2018-09-24 15:28:16,263 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_HOST_NAME=SB-EM1
-2018-09-24 15:28:16,263 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - SB-EM1
-2018-09-24 15:28:16,263 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_PORT_NUMBER=1433
-2018-09-24 15:28:16,263 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - 1433
-2018-09-24 15:28:16,263 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_USER=aedbadmin
-2018-09-24 15:28:16,264 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - aedbadmin
-2018-09-24 15:28:16,264 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_PASS=Test1234
-2018-09-24 15:28:16,264 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Test1234
-2018-09-24 15:28:16,264 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_NAME=AEDB
-2018-09-24 15:28:16,264 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - AEDB
-2018-09-24 15:29:39,648 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 15:29:39,661 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
-2018-09-24 15:29:39,661 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - database.properties file found. Proceeding to gather info...
-2018-09-24 15:29:39,662 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_HOST_NAME=SB-EM1
-2018-09-24 15:29:39,662 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - SB-EM1
-2018-09-24 15:29:39,662 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_PORT_NUMBER=1433
-2018-09-24 15:29:39,662 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - 1433
-2018-09-24 15:29:39,662 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_USER=aedbadmin
-2018-09-24 15:29:39,663 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - aedbadmin
-2018-09-24 15:29:39,664 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_PASS=Test1234
-2018-09-24 15:29:39,664 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Test1234
-2018-09-24 15:29:39,665 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_NAME=AEDB
-2018-09-24 15:29:39,665 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - AEDB
-2018-09-24 15:29:51,582 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 15:29:51,595 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
-2018-09-24 15:29:51,596 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - database.properties file found. Proceeding to gather info...
-2018-09-24 15:29:51,597 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_HOST_NAME=SB-EM1
-2018-09-24 15:29:51,597 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - SB-EM1
-2018-09-24 15:29:51,597 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_PORT_NUMBER=1433
-2018-09-24 15:29:51,598 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - 1433
-2018-09-24 15:29:51,598 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_USER=aedbadmin
-2018-09-24 15:29:51,599 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - aedbadmin
-2018-09-24 15:29:51,599 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_PASS=Test1234
-2018-09-24 15:29:51,600 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Test1234
-2018-09-24 15:29:51,600 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_NAME=AEDB
-2018-09-24 15:29:51,601 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - AEDB
-2018-09-24 15:30:42,494 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 15:30:42,507 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
-2018-09-24 15:30:42,508 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - database.properties file found. Proceeding to gather info...
-2018-09-24 15:30:42,508 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_HOST_NAME=SB-EM1
-2018-09-24 15:30:42,509 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - SB-EM1
-2018-09-24 15:30:42,509 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_PORT_NUMBER=1433
-2018-09-24 15:30:42,509 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - 1433
-2018-09-24 15:30:42,509 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_USER=aedbadmin
-2018-09-24 15:30:42,509 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - aedbadmin
-2018-09-24 15:30:42,509 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_PASS=Test1234
-2018-09-24 15:30:42,510 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Test1234
-2018-09-24 15:30:42,510 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_NAME=AEDB
-2018-09-24 15:30:42,510 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - AEDB
-2018-09-24 15:30:55,058 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 15:30:55,076 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
-2018-09-24 15:30:55,076 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - database.properties file found. Proceeding to gather info...
-2018-09-24 15:30:55,076 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_HOST_NAME=SB-EM1
-2018-09-24 15:30:55,076 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - SB-EM1
-2018-09-24 15:30:55,077 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_PORT_NUMBER=1433
-2018-09-24 15:30:55,077 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - 1433
-2018-09-24 15:30:55,077 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_USER=aedbadmin
-2018-09-24 15:30:55,077 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - aedbadmin
-2018-09-24 15:30:55,077 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_PASS=Test1234
-2018-09-24 15:30:55,077 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Test1234
-2018-09-24 15:30:55,077 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_NAME=AEDB
-2018-09-24 15:30:55,077 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - AEDB
-2018-09-24 15:31:17,738 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 15:31:17,755 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
-2018-09-24 15:31:17,757 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - database.properties file found. Proceeding to gather info...
-2018-09-24 15:31:17,758 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_HOST_NAME=SB-EM1
-2018-09-24 15:31:17,758 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - SB-EM1
-2018-09-24 15:31:17,759 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_PORT_NUMBER=1433
-2018-09-24 15:31:17,759 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - 1433
-2018-09-24 15:31:17,759 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_USER=aedbadmin
-2018-09-24 15:31:17,759 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - aedbadmin
-2018-09-24 15:31:17,759 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_PASS=Test1234
-2018-09-24 15:31:17,760 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Test1234
-2018-09-24 15:31:17,760 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_NAME=AEDB
-2018-09-24 15:31:17,760 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - AEDB
-2018-09-24 15:31:48,140 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 15:31:48,185 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
-2018-09-24 15:31:48,189 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - database.properties file found. Proceeding to gather info...
-2018-09-24 15:31:48,190 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_HOST_NAME=SB-EM1.RMT.com
-2018-09-24 15:31:48,190 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - SB-EM1.RMT.com
-2018-09-24 15:31:48,190 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_PORT_NUMBER=1433
-2018-09-24 15:31:48,190 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - 1433
-2018-09-24 15:31:48,191 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_USER=aedbadmin
-2018-09-24 15:31:48,191 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - aedbadmin
-2018-09-24 15:31:48,191 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_PASS=Test1234
-2018-09-24 15:31:48,191 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Test1234
-2018-09-24 15:31:48,191 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_NAME=AEDB
-2018-09-24 15:31:48,191 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - AEDB
-2018-09-24 15:37:55,046 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 15:37:55,063 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
-2018-09-24 15:37:55,066 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - database.properties file found. Proceeding to gather info...
-2018-09-24 15:37:55,067 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_HOST_NAME=SB-EM1.RMT.com
-2018-09-24 15:37:55,067 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - 
-2018-09-24 15:37:55,068 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_PORT_NUMBER=1433
-2018-09-24 15:37:55,068 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - 
-2018-09-24 15:37:55,068 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_USER=aedbadmin
-2018-09-24 15:37:55,069 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - 
-2018-09-24 15:37:55,069 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_PASS=Test1234
-2018-09-24 15:37:55,069 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - 
-2018-09-24 15:37:55,069 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_NAME=AEDB
-2018-09-24 15:37:55,070 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - 
-2018-09-24 15:38:03,507 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Data Source=SB-EM1.RMT.com,1433;Initial Catalog=AEDB;User ID=aedbadmin;Password=Test1234
-2018-09-24 15:38:52,444 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 15:38:52,458 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
-2018-09-24 15:38:52,460 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - database.properties file found. Proceeding to gather info...
-2018-09-24 15:38:52,460 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_HOST_NAME=SB-EM1.RMT.com
-2018-09-24 15:38:52,461 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - 
-2018-09-24 15:38:52,461 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_PORT_NUMBER=1433
-2018-09-24 15:38:52,462 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - 
-2018-09-24 15:38:52,462 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_USER=autosys
-2018-09-24 15:38:52,463 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - 
-2018-09-24 15:38:52,463 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_PASS=Test1234
-2018-09-24 15:38:52,464 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - 
-2018-09-24 15:38:52,464 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_NAME=AEDB
-2018-09-24 15:38:52,465 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - 
-2018-09-24 15:38:58,306 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Data Source=SB-EM1.RMT.com,1433;Initial Catalog=AEDB;User ID=autosys;Password=Test1234
-2018-09-24 15:39:03,946 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - 10.50.1600
-2018-09-24 15:40:07,324 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 15:40:07,346 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
-2018-09-24 15:40:07,347 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - database.properties file found. Proceeding to gather info...
-2018-09-24 15:40:07,347 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_HOST_NAME=SB-EM1.RMT.com
-2018-09-24 15:40:07,347 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - 
-2018-09-24 15:40:07,347 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_PORT_NUMBER=1433
-2018-09-24 15:40:07,347 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - 
-2018-09-24 15:40:07,347 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_USER=autosys
-2018-09-24 15:40:07,348 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - 
-2018-09-24 15:40:07,348 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_PASS=Test1234
-2018-09-24 15:40:07,348 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - 
-2018-09-24 15:40:07,348 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_NAME=AEDB
-2018-09-24 15:40:07,348 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - 
-2018-09-24 15:40:07,348 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Data Source=SB-EM1.RMT.com,1433;Initial Catalog=AEDB;User ID=autosys;Password=Test1234
-2018-09-24 15:40:07,814 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Connected to SQL Server on :SB-EM1.RMT.com.SQL Server Version: 10.50.1600
-2018-09-24 15:40:27,346 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 15:40:27,367 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
-2018-09-24 15:40:27,368 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - database.properties file found. Proceeding to gather info...
-2018-09-24 15:40:27,368 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_HOST_NAME=SB-EM1.RMT.com
-2018-09-24 15:40:27,368 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - 
-2018-09-24 15:40:27,368 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_PORT_NUMBER=1433
-2018-09-24 15:40:27,369 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - 
-2018-09-24 15:40:27,369 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_USER=autosys
-2018-09-24 15:40:27,369 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - 
-2018-09-24 15:40:27,369 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_PASS=Test1234
-2018-09-24 15:40:27,369 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - 
-2018-09-24 15:40:27,370 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_NAME=AEDB
-2018-09-24 15:40:27,370 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - 
-2018-09-24 15:40:27,370 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Data Source=SB-EM1.RMT.com,1433;Initial Catalog=AEDB;User ID=autosys;Password=Test1234
-2018-09-24 15:40:27,811 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Connected to SQL Server on :SB-EM1.RMT.com. 
- SQL Server Version: 10.50.1600
-2018-09-24 15:40:43,382 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 15:40:43,393 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
-2018-09-24 15:40:43,394 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - database.properties file found. Proceeding to gather info...
-2018-09-24 15:40:43,394 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_HOST_NAME=SB-EM1.RMT.com
-2018-09-24 15:40:43,394 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - 
-2018-09-24 15:40:43,395 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_PORT_NUMBER=1433
-2018-09-24 15:40:43,395 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - 
-2018-09-24 15:40:43,395 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_USER=autosys
-2018-09-24 15:40:43,395 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - 
-2018-09-24 15:40:43,395 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_PASS=Test1234
-2018-09-24 15:40:43,395 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - 
-2018-09-24 15:40:43,395 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_NAME=AEDB
-2018-09-24 15:40:43,395 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - 
-2018-09-24 15:40:43,396 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Data Source=SB-EM1.RMT.com,1433;Initial Catalog=AEDB;User ID=autosys;Password=Test1234
-2018-09-24 15:40:43,832 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Connected to SQL Server on :SB-EM1.RMT.com. 	 SQL Server Version: 10.50.1600
-2018-09-24 16:03:10,748 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 16:03:10,773 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
-2018-09-24 16:03:10,778 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - database.properties file found. Proceeding to gather info...
-2018-09-24 16:03:10,778 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_HOST_NAME=SB-EM1.RMT.com
-2018-09-24 16:03:10,778 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_PORT_NUMBER=1433
-2018-09-24 16:03:10,779 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_USER=autosys
-2018-09-24 16:03:10,779 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_PASS=Test1234
-2018-09-24 16:03:10,779 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_NAME=AEDB
-2018-09-24 16:03:10,779 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Data Source=SB-EM1.RMT.com,1433;Initial Catalog=AEDB;User ID=autosys;Password=Test1234
-2018-09-24 16:03:11,357 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Connected to SQL Server on :SB-EM1.RMT.com 	 SQL Server Version: 10.50.1600
-2018-09-24 16:03:11,358 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 16:41:48,774 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 16:41:48,802 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
-2018-09-24 16:41:48,803 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - database.properties file found. Proceeding to gather info...
-2018-09-24 16:41:48,805 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_HOST_NAME=SB-EM1.RMT.com
-2018-09-24 16:41:48,805 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_PORT_NUMBER=1433
-2018-09-24 16:41:48,805 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_USER=autosys
-2018-09-24 16:41:48,805 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_PASS=Test1234
-2018-09-24 16:41:48,805 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_NAME=AEDB
-2018-09-24 16:41:48,806 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Data Source=SB-EM1.RMT.com,1433;Initial Catalog=AEDB;User ID=autosys;Password=Test1234
-2018-09-24 16:41:49,339 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Connected to SQL Server on :SB-EM1.RMT.com 	 SQL Server Version: 10.50.1600
-2018-09-24 16:42:11,523 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 16:42:46,728 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 16:42:46,761 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
-2018-09-24 16:42:46,764 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - database.properties file found. Proceeding to gather info...
-2018-09-24 16:42:46,765 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_HOST_NAME=SB-EM1.RMT.com
-2018-09-24 16:42:46,767 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_PORT_NUMBER=1433
-2018-09-24 16:42:46,769 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_USER=autosys
-2018-09-24 16:42:46,770 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_PASS=Test1234
-2018-09-24 16:42:46,775 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_NAME=AEDB
-2018-09-24 16:42:46,775 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Data Source=SB-EM1.RMT.com,1433;Initial Catalog=AEDB;User ID=autosys;Password=Test1234
-2018-09-24 16:42:47,199 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Connected to SQL Server on :SB-EM1.RMT.com 	 SQL Server Version: 10.50.1600
-2018-09-24 16:42:59,764 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 16:43:25,161 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 16:43:25,189 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
-2018-09-24 16:43:25,189 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - database.properties file found. Proceeding to gather info...
-2018-09-24 16:43:25,190 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_HOST_NAME=SB-EM1.RMT.com
-2018-09-24 16:43:25,191 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_PORT_NUMBER=1433
-2018-09-24 16:43:25,192 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_USER=autosys
-2018-09-24 16:43:25,192 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_PASS=Test1234
-2018-09-24 16:43:25,192 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_NAME=AEDB
-2018-09-24 16:43:25,192 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Data Source=SB-EM1.RMT.com,1433;Initial Catalog=AEDB;User ID=autosys;Password=Test1234
-2018-09-24 16:43:25,635 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Connected to SQL Server on :SB-EM1.RMT.com 	 SQL Server Version: 10.50.1600
-2018-09-24 16:43:32,135 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 16:44:25,033 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 16:44:25,054 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
-2018-09-24 16:44:25,055 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - database.properties file found. Proceeding to gather info...
-2018-09-24 16:44:25,055 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_HOST_NAME=SB-EM1.RMT.com
-2018-09-24 16:44:25,055 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_PORT_NUMBER=1433
-2018-09-24 16:44:25,055 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_USER=autosys
-2018-09-24 16:44:25,056 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_PASS=Test1234
-2018-09-24 16:44:25,056 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_NAME=AEDB
-2018-09-24 16:44:25,056 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Data Source=SB-EM1.RMT.com,1433;Initial Catalog=AEDB;User ID=autosys;Password=Test1234
-2018-09-24 16:44:25,516 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Connected to SQL Server on :SB-EM1.RMT.com 	 SQL Server Version: 10.50.1600
-2018-09-24 16:44:36,466 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 16:44:45,640 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 16:44:45,664 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
-2018-09-24 16:44:45,665 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - database.properties file found. Proceeding to gather info...
-2018-09-24 16:44:45,667 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_HOST_NAME=SB-EM1.RMT.com
-2018-09-24 16:44:45,669 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_PORT_NUMBER=1433
-2018-09-24 16:44:45,669 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_USER=autosys
-2018-09-24 16:44:45,669 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_PASS=Test1234
-2018-09-24 16:44:45,670 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_NAME=AEDB
-2018-09-24 16:44:45,670 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Data Source=SB-EM1.RMT.com,1433;Initial Catalog=AEDB;User ID=autosys;Password=Test1234
-2018-09-24 16:44:45,976 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Connected to SQL Server on :SB-EM1.RMT.com 	 SQL Server Version: 10.50.1600
-2018-09-24 16:45:03,757 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 16:45:50,930 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 16:45:50,951 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
-2018-09-24 16:45:50,951 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - database.properties file found. Proceeding to gather info...
-2018-09-24 16:45:50,953 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_HOST_NAME=SB-EM1.RMT.com
-2018-09-24 16:45:50,954 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_PORT_NUMBER=1433
-2018-09-24 16:45:50,956 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_USER=autosys
-2018-09-24 16:45:50,957 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_PASS=Test1234
-2018-09-24 16:45:50,958 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_NAME=AEDB
-2018-09-24 16:45:50,959 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Data Source=SB-EM1.RMT.com,1433;Initial Catalog=AEDB;User ID=autosys;Password=Test1234
-2018-09-24 16:45:51,424 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Connected to SQL Server on :SB-EM1.RMT.com 	 SQL Server Version: 10.50.1600
-2018-09-24 16:46:00,359 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 16:46:06,545 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysb is :6718
-2018-09-24 16:46:29,641 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 16:47:09,553 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 16:47:09,572 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
-2018-09-24 16:47:09,573 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - database.properties file found. Proceeding to gather info...
-2018-09-24 16:47:09,573 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_HOST_NAME=SB-EM1.RMT.com
-2018-09-24 16:47:09,574 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_PORT_NUMBER=1433
-2018-09-24 16:47:09,574 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_USER=autosys
-2018-09-24 16:47:09,574 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_PASS=Test1234
-2018-09-24 16:47:09,575 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_NAME=AEDB
-2018-09-24 16:47:09,575 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Data Source=SB-EM1.RMT.com,1433;Initial Catalog=AEDB;User ID=autosys;Password=Test1234
-2018-09-24 16:47:10,113 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Connected to SQL Server on :SB-EM1.RMT.com 	 SQL Server Version: 10.50.1600
-2018-09-24 16:47:15,786 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 16:47:15,837 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysb is :6718
-2018-09-24 16:47:24,168 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 16:50:23,821 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 16:50:23,841 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
-2018-09-24 16:50:23,842 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - database.properties file found. Proceeding to gather info...
-2018-09-24 16:50:23,842 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_HOST_NAME=SB-EM1.RMT.com
-2018-09-24 16:50:23,843 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_PORT_NUMBER=1433
-2018-09-24 16:50:23,844 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_USER=autosys
-2018-09-24 16:50:23,844 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_PASS=Test1234
-2018-09-24 16:50:23,844 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_NAME=AEDB
-2018-09-24 16:50:23,845 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Data Source=SB-EM1.RMT.com,1433;Initial Catalog=AEDB;User ID=autosys;Password=Test1234
-2018-09-24 16:50:24,117 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Connected to SQL Server on :SB-EM1.RMT.com 	 SQL Server Version: 10.50.1600
-2018-09-24 16:50:24,118 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 16:50:24,166 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysb is :6718
-2018-09-24 16:50:24,167 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 16:51:26,985 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 16:51:27,009 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
-2018-09-24 16:51:27,012 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - database.properties file found. Proceeding to gather info...
-2018-09-24 16:51:27,013 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_HOST_NAME=SB-EM1.RMT.com
-2018-09-24 16:51:27,013 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_PORT_NUMBER=1433
-2018-09-24 16:51:27,014 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_USER=autosys
-2018-09-24 16:51:27,014 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_PASS=Test1234
-2018-09-24 16:51:27,014 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_NAME=AEDB
-2018-09-24 16:51:27,014 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Data Source=SB-EM1.RMT.com,1433;Initial Catalog=AEDB;User ID=autosys;Password=Test1234
-2018-09-24 16:51:27,508 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Connected to SQL Server on :SB-EM1.RMT.com 	 SQL Server Version: 10.50.1600
-2018-09-24 16:51:27,509 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 16:51:27,553 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysb is :6718
-2018-09-24 16:51:37,745 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 16:52:22,250 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 16:52:22,268 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
-2018-09-24 16:52:22,270 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - database.properties file found. Proceeding to gather info...
-2018-09-24 16:52:22,271 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_HOST_NAME=SB-EM1.RMT.com
-2018-09-24 16:52:22,272 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_PORT_NUMBER=1433
-2018-09-24 16:52:22,273 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_USER=autosys
-2018-09-24 16:52:22,274 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_PASS=Test1234
-2018-09-24 16:52:22,275 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_NAME=AEDB
-2018-09-24 16:52:22,275 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Data Source=SB-EM1.RMT.com,1433;Initial Catalog=AEDB;User ID=autosys;Password=Test1234
-2018-09-24 16:52:22,679 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Connected to SQL Server on :SB-EM1.RMT.com 	 SQL Server Version: 10.50.1600
-2018-09-24 16:52:22,680 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 16:52:22,724 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysb is :6718
-2018-09-24 16:52:28,078 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 16:52:31,568 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: OTC_C_NA_DY_ipp003dysa
-2018-09-24 16:58:41,964 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 16:58:41,987 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
-2018-09-24 16:58:41,989 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - database.properties file found. Proceeding to gather info...
-2018-09-24 16:58:41,989 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_HOST_NAME=SB-EM1.RMT.com
-2018-09-24 16:58:41,989 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_PORT_NUMBER=1433
-2018-09-24 16:58:41,990 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_USER=autosys
-2018-09-24 16:58:41,990 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_PASS=Test1234
-2018-09-24 16:58:41,990 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_NAME=AEDB
-2018-09-24 16:58:41,990 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Data Source=SB-EM1.RMT.com,1433;Initial Catalog=AEDB;User ID=autosys;Password=Test1234
-2018-09-24 16:58:42,475 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Connected to SQL Server on :SB-EM1.RMT.com 	 SQL Server Version: 10.50.1600
-2018-09-24 16:58:42,477 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 16:58:42,529 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysb is :6718
-2018-09-24 16:58:53,226 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 16:58:59,496 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: OTC_C_NA_DY_ipp003dysa
-2018-09-24 16:59:47,409 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 16:59:47,430 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
-2018-09-24 16:59:47,431 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - database.properties file found. Proceeding to gather info...
-2018-09-24 16:59:47,431 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_HOST_NAME=SB-EM1.RMT.com
-2018-09-24 16:59:47,432 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_PORT_NUMBER=1433
-2018-09-24 16:59:47,432 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_USER=autosys
-2018-09-24 16:59:47,432 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_PASS=Test1234
-2018-09-24 16:59:47,432 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_NAME=AEDB
-2018-09-24 16:59:47,432 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Data Source=SB-EM1.RMT.com,1433;Initial Catalog=AEDB;User ID=autosys;Password=Test1234
-2018-09-24 16:59:47,899 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Connected to SQL Server on :SB-EM1.RMT.com 	 SQL Server Version: 10.50.1600
-2018-09-24 16:59:47,900 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 16:59:47,949 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysb is :6718
-2018-09-24 16:59:52,931 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:00:03,954 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:00:28,198 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 17:00:28,219 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
-2018-09-24 17:00:28,220 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - database.properties file found. Proceeding to gather info...
-2018-09-24 17:00:28,220 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_HOST_NAME=SB-EM1.RMT.com
-2018-09-24 17:00:28,220 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_PORT_NUMBER=1433
-2018-09-24 17:00:28,220 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_USER=autosys
-2018-09-24 17:00:28,220 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_PASS=Test1234
-2018-09-24 17:00:28,221 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_NAME=AEDB
-2018-09-24 17:00:28,221 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Data Source=SB-EM1.RMT.com,1433;Initial Catalog=AEDB;User ID=autosys;Password=Test1234
-2018-09-24 17:00:28,662 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Connected to SQL Server on :SB-EM1.RMT.com 	 SQL Server Version: 10.50.1600
-2018-09-24 17:00:28,663 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:00:28,733 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysb is :6718
-2018-09-24 17:00:33,517 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:00:34,702 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:05:46,622 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 17:05:46,644 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
-2018-09-24 17:05:46,644 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - database.properties file found. Proceeding to gather info...
-2018-09-24 17:05:46,645 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_HOST_NAME=SB-EM1.RMT.com
-2018-09-24 17:05:46,645 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_PORT_NUMBER=1433
-2018-09-24 17:05:46,645 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_USER=autosys
-2018-09-24 17:05:46,645 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_PASS=Test1234
-2018-09-24 17:05:46,645 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_NAME=AEDB
-2018-09-24 17:05:46,646 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Data Source=SB-EM1.RMT.com,1433;Initial Catalog=AEDB;User ID=autosys;Password=Test1234
-2018-09-24 17:05:47,151 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Connected to SQL Server on :SB-EM1.RMT.com 	 SQL Server Version: 10.50.1600
-2018-09-24 17:05:47,152 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:05:47,197 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysb is :6718
-2018-09-24 17:05:52,454 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:05:53,885 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:06:34,392 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:06:41,846 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:08:48,985 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 17:08:48,999 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
-2018-09-24 17:08:49,000 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - database.properties file found. Proceeding to gather info...
-2018-09-24 17:08:49,001 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_HOST_NAME=SB-EM1.RMT.com
-2018-09-24 17:08:49,001 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_PORT_NUMBER=1433
-2018-09-24 17:08:49,002 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_USER=autosys
-2018-09-24 17:08:49,002 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_PASS=Test1234
-2018-09-24 17:08:49,002 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_NAME=AEDB
-2018-09-24 17:08:49,002 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Data Source=SB-EM1.RMT.com,1433;Initial Catalog=AEDB;User ID=autosys;Password=Test1234;MultipleActiveResultSets=true
-2018-09-24 17:08:49,489 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Connected to SQL Server on :SB-EM1.RMT.com 	 SQL Server Version: 10.50.1600
-2018-09-24 17:08:49,491 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:08:49,581 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysb is :6718
-2018-09-24 17:08:58,041 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:09:00,750 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:09:10,091 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:09:13,528 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:09:13,571 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:10:04,511 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 17:10:04,529 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
-2018-09-24 17:10:04,532 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - database.properties file found. Proceeding to gather info...
-2018-09-24 17:10:04,533 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_HOST_NAME=SB-EM1.RMT.com
-2018-09-24 17:10:04,534 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_PORT_NUMBER=1433
-2018-09-24 17:10:04,534 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_USER=autosys
-2018-09-24 17:10:04,534 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_PASS=Test1234
-2018-09-24 17:10:04,535 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_NAME=AEDB
-2018-09-24 17:10:04,535 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Data Source=SB-EM1.RMT.com,1433;Initial Catalog=AEDB;User ID=autosys;Password=Test1234;MultipleActiveResultSets=true
-2018-09-24 17:10:05,232 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Connected to SQL Server on :SB-EM1.RMT.com 	 SQL Server Version: 10.50.1600
-2018-09-24 17:10:05,234 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:10:05,278 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysb is :6718
-2018-09-24 17:10:12,005 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:10:12,044 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:10:12,044 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:10:12,045 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:10:12,085 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:10:32,020 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:10:58,942 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:11:09,651 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:09,691 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:11:22,955 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:22,992 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:11:22,992 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:23,034 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:11:23,036 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:23,072 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:11:23,073 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:23,111 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:11:23,112 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:23,147 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:11:23,148 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:23,189 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:11:23,189 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:23,223 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:11:23,224 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:23,266 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:11:23,266 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:23,302 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:11:23,302 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:23,342 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:11:23,342 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:23,378 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:11:23,378 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:23,418 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:11:23,419 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:23,454 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:11:23,455 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:23,497 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:11:23,498 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:23,534 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:11:23,534 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:23,576 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:11:23,576 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:23,610 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:11:23,610 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:23,650 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:11:23,651 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:23,686 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:11:23,686 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:23,728 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:11:23,728 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:23,762 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:11:23,763 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:23,804 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:11:23,804 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:23,840 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:11:23,840 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:23,880 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:11:23,880 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:23,916 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:11:23,916 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:23,957 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:11:23,958 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:23,998 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:11:23,999 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:24,044 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:11:24,046 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:24,088 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:11:24,100 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:24,144 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:11:24,144 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:24,182 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:11:24,182 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:24,227 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:11:24,228 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:24,264 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:11:24,265 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:24,304 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:11:24,304 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:24,338 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:11:24,338 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:24,378 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:11:24,378 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:24,414 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:11:24,414 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:24,455 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:11:24,457 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:24,491 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:11:24,499 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:24,543 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:11:24,544 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:24,577 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:11:24,578 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:24,622 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:11:24,622 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:24,658 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:11:24,659 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:24,702 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:11:24,702 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:24,738 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:11:24,739 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:24,777 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:11:24,777 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:24,820 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:11:24,820 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:24,860 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:11:24,860 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:24,904 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:11:24,904 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:24,948 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:11:24,948 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:24,982 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:11:24,982 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:25,024 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:11:25,024 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:25,064 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:11:25,065 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:25,108 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:11:25,109 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:25,144 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:11:25,145 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:25,186 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:11:25,186 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:25,219 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:11:25,219 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:25,263 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:11:25,263 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:25,299 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:11:25,299 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:25,340 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:11:25,341 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:25,378 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:11:25,378 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:25,420 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:11:25,420 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:25,456 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:11:25,456 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:25,496 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:11:25,498 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:25,537 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:11:25,537 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:25,576 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:11:25,576 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:25,610 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:11:25,611 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:25,655 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:11:25,656 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:25,691 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:11:25,692 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:25,736 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:11:25,736 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:25,779 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:11:25,780 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:25,820 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:11:25,821 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:25,858 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:11:25,859 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:25,910 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:11:25,910 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:25,945 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:11:25,946 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:25,988 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:11:25,988 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:26,025 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:11:26,026 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:26,068 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:11:26,068 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:26,104 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:11:26,105 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:26,146 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:11:26,147 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:26,182 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:11:26,184 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:26,226 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:11:26,226 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:11:26,260 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:11:26,261 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:17:12,722 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 17:17:12,751 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
-2018-09-24 17:17:12,751 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - database.properties file found. Proceeding to gather info...
-2018-09-24 17:17:12,752 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_HOST_NAME=SB-EM1.RMT.com
-2018-09-24 17:17:12,752 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_PORT_NUMBER=1433
-2018-09-24 17:17:12,752 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_USER=autosys
-2018-09-24 17:17:12,752 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_PASS=Test1234
-2018-09-24 17:17:12,752 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_NAME=AEDB
-2018-09-24 17:17:12,752 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Data Source=SB-EM1.RMT.com,1433;Initial Catalog=AEDB;User ID=autosys;Password=Test1234;MultipleActiveResultSets=true
-2018-09-24 17:17:13,304 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Connected to SQL Server on :SB-EM1.RMT.com 	 SQL Server Version: 10.50.1600
-2018-09-24 17:17:13,306 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:17:13,354 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysb is :6718
-2018-09-24 17:17:13,354 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:17:13,388 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:17:32,296 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:17:35,701 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:17:35,741 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:17:35,742 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:17:44,513 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:24:07,983 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 17:24:08,010 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
-2018-09-24 17:24:08,012 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - database.properties file found. Proceeding to gather info...
-2018-09-24 17:24:08,013 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_HOST_NAME=SB-EM1.RMT.com
-2018-09-24 17:24:08,013 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_PORT_NUMBER=1433
-2018-09-24 17:24:08,014 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_USER=autosys
-2018-09-24 17:24:08,014 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_PASS=Test1234
-2018-09-24 17:24:08,014 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_NAME=AEDB
-2018-09-24 17:24:08,014 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Data Source=SB-EM1.RMT.com,1433;Initial Catalog=AEDB;User ID=autosys;Password=Test1234;MultipleActiveResultSets=true
-2018-09-24 17:24:08,528 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Connected to SQL Server on :SB-EM1.RMT.com 	 SQL Server Version: 10.50.1600
-2018-09-24 17:24:08,530 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:24:08,579 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysb is :6718
-2018-09-24 17:24:08,579 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:24:08,618 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:24:08,619 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:24:08,619 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:24:08,658 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:24:08,658 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:24:22,494 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 17:24:22,526 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
-2018-09-24 17:24:22,527 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - database.properties file found. Proceeding to gather info...
-2018-09-24 17:24:22,528 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_HOST_NAME=SB-EM1.RMT.com
-2018-09-24 17:24:22,528 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_PORT_NUMBER=1433
-2018-09-24 17:24:22,529 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_USER=autosys
-2018-09-24 17:24:22,529 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_PASS=Test1234
-2018-09-24 17:24:22,530 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_NAME=AEDB
-2018-09-24 17:24:22,531 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Data Source=SB-EM1.RMT.com,1433;Initial Catalog=AEDB;User ID=autosys;Password=Test1234;MultipleActiveResultSets=true
-2018-09-24 17:24:22,833 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Connected to SQL Server on :SB-EM1.RMT.com 	 SQL Server Version: 10.50.1600
-2018-09-24 17:24:22,834 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:24:22,877 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysb is :6718
-2018-09-24 17:24:22,878 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:24:22,913 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:24:51,849 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:25:30,669 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:25:30,708 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:25:37,717 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:26:32,057 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
-2018-09-24 17:26:32,082 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
-2018-09-24 17:26:32,083 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - database.properties file found. Proceeding to gather info...
-2018-09-24 17:26:32,083 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_HOST_NAME=SB-EM1.RMT.com
-2018-09-24 17:26:32,083 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_PORT_NUMBER=1433
-2018-09-24 17:26:32,083 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_USER=autosys
-2018-09-24 17:26:32,084 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_PASS=Test1234
-2018-09-24 17:26:32,084 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_NAME=AEDB
-2018-09-24 17:26:32,084 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Data Source=SB-EM1.RMT.com,1433;Initial Catalog=AEDB;User ID=autosys;Password=Test1234;MultipleActiveResultSets=true
-2018-09-24 17:26:32,583 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Connected to SQL Server on :SB-EM1.RMT.com 	 SQL Server Version: 10.50.1600
-2018-09-24 17:26:32,584 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:26:32,628 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysb is :6718
-2018-09-24 17:26:32,628 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:26:32,663 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:26:41,892 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting Dependent job for : OTC_C_NA_DY_ipp003dysa
-2018-09-24 17:26:49,710 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
-2018-09-24 17:26:49,753 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: OTC_C_NA_DY_ipp003dysa is :6717
-2018-09-24 17:26:56,903 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:37:52,599 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
+2018-09-25 12:37:52,617 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
+2018-09-25 12:37:52,618 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - database.properties file found. Proceeding to gather info...
+2018-09-25 12:37:52,620 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_HOST_NAME=SB-EM1.RMT.com
+2018-09-25 12:37:52,620 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_PORT_NUMBER=1433
+2018-09-25 12:37:52,620 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_USER=autosys
+2018-09-25 12:37:52,620 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_PASS=Test1234
+2018-09-25 12:37:52,621 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_NAME=AEDB
+2018-09-25 12:37:52,621 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Data Source=SB-EM1.RMT.com,1433;Initial Catalog=AEDB;User ID=autosys;Password=Test1234;MultipleActiveResultSets=true
+2018-09-25 12:37:53,101 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Connected to SQL Server on :SB-EM1.RMT.com 	 SQL Server Version: 10.50.1600
+2018-09-25 12:37:53,102 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:37:53,150 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: job11 is :6727
+2018-09-25 12:37:53,150 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:37:53,151 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting dependent jobs for : job11
+2018-09-25 12:52:30,864 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
+2018-09-25 12:52:30,881 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
+2018-09-25 12:52:30,885 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - database.properties file found. Proceeding to gather info...
+2018-09-25 12:52:30,886 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_HOST_NAME=SB-EM1.RMT.com
+2018-09-25 12:52:30,886 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_PORT_NUMBER=1433
+2018-09-25 12:52:30,886 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_USER=autosys
+2018-09-25 12:52:30,886 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_PASS=Test1234
+2018-09-25 12:52:30,886 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_NAME=AEDB
+2018-09-25 12:52:30,886 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Data Source=SB-EM1.RMT.com,1433;Initial Catalog=AEDB;User ID=autosys;Password=Test1234;MultipleActiveResultSets=true
+2018-09-25 12:52:31,478 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Connected to SQL Server on :SB-EM1.RMT.com 	 SQL Server Version: 10.50.1600
+2018-09-25 12:52:31,479 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:52:31,534 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: job11 is :6727
+2018-09-25 12:52:31,535 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:52:31,535 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting dependent jobs for : job11
+2018-09-25 12:52:54,026 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
+2018-09-25 12:52:54,037 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
+2018-09-25 12:52:54,038 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - database.properties file found. Proceeding to gather info...
+2018-09-25 12:52:54,039 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_HOST_NAME=SB-EM1.RMT.com
+2018-09-25 12:52:54,039 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_PORT_NUMBER=1433
+2018-09-25 12:52:54,039 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_USER=autosys
+2018-09-25 12:52:54,039 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_PASS=Test1234
+2018-09-25 12:52:54,039 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_NAME=AEDB
+2018-09-25 12:52:54,039 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Data Source=SB-EM1.RMT.com,1433;Initial Catalog=AEDB;User ID=autosys;Password=Test1234;MultipleActiveResultSets=true
+2018-09-25 12:52:54,519 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Connected to SQL Server on :SB-EM1.RMT.com 	 SQL Server Version: 10.50.1600
+2018-09-25 12:52:54,521 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:52:54,567 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: job11 is :6727
+2018-09-25 12:52:54,568 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:52:54,568 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting dependent jobs for : job11
+2018-09-25 12:54:03,510 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
+2018-09-25 12:54:03,535 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
+2018-09-25 12:54:03,536 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - database.properties file found. Proceeding to gather info...
+2018-09-25 12:54:03,537 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_HOST_NAME=SB-EM1.RMT.com
+2018-09-25 12:54:03,537 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_PORT_NUMBER=1433
+2018-09-25 12:54:03,537 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_USER=autosys
+2018-09-25 12:54:03,537 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_PASS=Test1234
+2018-09-25 12:54:03,537 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_NAME=AEDB
+2018-09-25 12:54:03,537 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Data Source=SB-EM1.RMT.com,1433;Initial Catalog=AEDB;User ID=autosys;Password=Test1234;MultipleActiveResultSets=true
+2018-09-25 12:54:04,009 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Connected to SQL Server on :SB-EM1.RMT.com 	 SQL Server Version: 10.50.1600
+2018-09-25 12:54:04,010 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:54:04,063 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: job11 is :6727
+2018-09-25 12:54:04,064 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:54:04,064 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting dependent jobs for : job11
+2018-09-25 12:54:36,261 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Application Logging initialized...
+2018-09-25 12:54:36,287 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Reading database.properties for AutoSys database information
+2018-09-25 12:54:36,290 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - database.properties file found. Proceeding to gather info...
+2018-09-25 12:54:36,293 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_HOST_NAME=SB-EM1.RMT.com
+2018-09-25 12:54:36,293 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_PORT_NUMBER=1433
+2018-09-25 12:54:36,293 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_USER=autosys
+2018-09-25 12:54:36,294 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_READ_PASS=Test1234
+2018-09-25 12:54:36,294 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - DB_NAME=AEDB
+2018-09-25 12:54:36,294 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Data Source=SB-EM1.RMT.com,1433;Initial Catalog=AEDB;User ID=autosys;Password=Test1234;MultipleActiveResultSets=true
+2018-09-25 12:54:36,761 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Connected to SQL Server on :SB-EM1.RMT.com 	 SQL Server Version: 10.50.1600
+2018-09-25 12:54:36,762 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:54:36,808 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: job11 is :6727
+2018-09-25 12:54:36,809 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:54:36,809 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting dependent jobs for : job11
+2018-09-25 12:54:36,848 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: dep22 for job: job11
+2018-09-25 12:54:36,851 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: dep21 for job: job11
+2018-09-25 12:54:49,467 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:54:49,507 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: dep22 is :6729
+2018-09-25 12:54:49,507 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:54:49,508 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting dependent jobs for : dep22
+2018-09-25 12:54:49,541 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: dd1 for job: dep22
+2018-09-25 12:54:49,541 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: dd2 for job: dep22
+2018-09-25 12:54:49,541 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: dd3 for job: dep22
+2018-09-25 12:54:49,541 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: dd4 for job: dep22
+2018-09-25 12:55:02,395 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:55:02,437 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: dep21 is :6728
+2018-09-25 12:55:02,437 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:55:02,438 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting dependent jobs for : dep21
+2018-09-25 12:55:02,473 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: job1 for job: dep21
+2018-09-25 12:55:02,473 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: job3 for job: dep21
+2018-09-25 12:55:08,386 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:55:08,427 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:55:08,427 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting dependent jobs for : dd1
+2018-09-25 12:55:08,464 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: NO_FURTHER_DEPENDENCY for job: dd1
+2018-09-25 12:55:16,726 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:55:16,766 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:55:16,766 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting dependent jobs for : dd2
+2018-09-25 12:55:16,803 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: NO_FURTHER_DEPENDENCY for job: dd2
+2018-09-25 12:55:17,636 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:55:17,675 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:55:17,676 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting dependent jobs for : dd3
+2018-09-25 12:55:17,712 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: NO_FURTHER_DEPENDENCY for job: dd3
+2018-09-25 12:55:18,514 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:55:18,551 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:55:18,551 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting dependent jobs for : dd4
+2018-09-25 12:55:18,587 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: NO_FURTHER_DEPENDENCY for job: dd4
+2018-09-25 12:55:26,067 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:55:26,106 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: job1 is :6720
+2018-09-25 12:55:26,106 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:55:26,109 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting dependent jobs for : job1
+2018-09-25 12:55:26,144 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: dep2 for job: job1
+2018-09-25 12:55:26,144 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: dep1 for job: job1
+2018-09-25 12:55:26,146 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: dep3 for job: job1
+2018-09-25 12:55:26,146 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: dep4 for job: job1
+2018-09-25 12:55:26,147 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: dep5 for job: job1
+2018-09-25 12:55:45,576 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:55:45,620 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:55:45,620 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting dependent jobs for : job3
+2018-09-25 12:55:45,658 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: NO_FURTHER_DEPENDENCY for job: job3
+2018-09-25 12:55:49,769 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:55:49,808 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: dep2 is :6723
+2018-09-25 12:55:49,809 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:55:49,810 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting dependent jobs for : dep2
+2018-09-25 12:55:49,846 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: dd1 for job: dep2
+2018-09-25 12:55:49,847 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: dd2 for job: dep2
+2018-09-25 12:55:49,849 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: dd3 for job: dep2
+2018-09-25 12:55:49,851 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: dd4 for job: dep2
+2018-09-25 12:56:04,515 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:56:04,557 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: dep1 is :6722
+2018-09-25 12:56:04,558 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:56:04,559 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting dependent jobs for : dep1
+2018-09-25 12:56:04,601 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: job1 for job: dep1
+2018-09-25 12:56:04,601 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: job3 for job: dep1
+2018-09-25 12:56:08,076 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:56:08,112 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: dep3 is :6724
+2018-09-25 12:56:08,113 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:56:08,115 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting dependent jobs for : dep3
+2018-09-25 12:56:08,158 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: dd11 for job: dep3
+2018-09-25 12:56:08,159 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: dd12 for job: dep3
+2018-09-25 12:56:08,163 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: dd13 for job: dep3
+2018-09-25 12:56:08,164 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: dd14 for job: dep3
+2018-09-25 12:56:11,416 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:56:11,607 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: dep4 is :6725
+2018-09-25 12:56:11,607 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:56:11,608 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting dependent jobs for : dep4
+2018-09-25 12:56:11,647 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: dd111 for job: dep4
+2018-09-25 12:56:11,647 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: dd112 for job: dep4
+2018-09-25 12:56:11,649 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: dd113 for job: dep4
+2018-09-25 12:56:11,649 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: dd114 for job: dep4
+2018-09-25 12:56:13,192 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:56:13,232 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job ID for job: dep5 is :6726
+2018-09-25 12:56:13,232 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:56:13,232 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting dependent jobs for : dep5
+2018-09-25 12:56:13,271 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: dd5111 for job: dep5
+2018-09-25 12:56:13,272 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: dd5112 for job: dep5
+2018-09-25 12:56:13,273 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: dd5113 for job: dep5
+2018-09-25 12:56:13,282 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: dd5114 for job: dep5
+2018-09-25 12:56:28,267 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job dd1 already processed for dependencies. Skipping
+2018-09-25 12:56:32,781 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job dd2 already processed for dependencies. Skipping
+2018-09-25 12:56:35,253 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job dd3 already processed for dependencies. Skipping
+2018-09-25 12:56:37,122 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job dd4 already processed for dependencies. Skipping
+2018-09-25 12:56:45,720 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job job1 already processed for dependencies. Skipping
+2018-09-25 12:56:53,426 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Job job3 already processed for dependencies. Skipping
+2018-09-25 12:56:56,397 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:56:56,437 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:56:56,437 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting dependent jobs for : dd11
+2018-09-25 12:56:56,472 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: NO_FURTHER_DEPENDENCY for job: dd11
+2018-09-25 12:57:05,700 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:57:05,763 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:57:05,763 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting dependent jobs for : dd12
+2018-09-25 12:57:05,798 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: NO_FURTHER_DEPENDENCY for job: dd12
+2018-09-25 12:57:07,391 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:57:07,430 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:57:07,430 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting dependent jobs for : dd13
+2018-09-25 12:57:07,465 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: NO_FURTHER_DEPENDENCY for job: dd13
+2018-09-25 12:57:08,245 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:57:08,286 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:57:08,286 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting dependent jobs for : dd14
+2018-09-25 12:57:08,319 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: NO_FURTHER_DEPENDENCY for job: dd14
+2018-09-25 12:57:09,186 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:57:09,223 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:57:09,224 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting dependent jobs for : dd111
+2018-09-25 12:57:09,260 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: NO_FURTHER_DEPENDENCY for job: dd111
+2018-09-25 12:57:10,128 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:57:10,167 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:57:10,167 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting dependent jobs for : dd112
+2018-09-25 12:57:10,204 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: NO_FURTHER_DEPENDENCY for job: dd112
+2018-09-25 12:57:11,187 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:57:11,227 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:57:11,228 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting dependent jobs for : dd113
+2018-09-25 12:57:11,265 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: NO_FURTHER_DEPENDENCY for job: dd113
+2018-09-25 12:57:12,122 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:57:12,158 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:57:12,158 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting dependent jobs for : dd114
+2018-09-25 12:57:12,200 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: NO_FURTHER_DEPENDENCY for job: dd114
+2018-09-25 12:57:12,935 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:57:12,972 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:57:12,973 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting dependent jobs for : dd5111
+2018-09-25 12:57:13,008 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: NO_FURTHER_DEPENDENCY for job: dd5111
+2018-09-25 12:57:13,838 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:57:13,876 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:57:13,876 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting dependent jobs for : dd5112
+2018-09-25 12:57:13,911 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: NO_FURTHER_DEPENDENCY for job: dd5112
+2018-09-25 12:57:14,613 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:57:14,650 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:57:14,650 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting dependent jobs for : dd5113
+2018-09-25 12:57:14,686 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: NO_FURTHER_DEPENDENCY for job: dd5113
+2018-09-25 12:57:15,373 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:57:15,412 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - SQL Server connection state: Open
+2018-09-25 12:57:15,412 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Getting dependent jobs for : dd5114
+2018-09-25 12:57:15,448 [1] DEBUG AutoSys_JobDependency_Crawler.DependencyCrawler - Dep Job found: NO_FURTHER_DEPENDENCY for job: dd5114
+2018-09-25 12:57:15,448 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: job11,dep22,Level0
+2018-09-25 12:57:15,449 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: job11,dep21,Level0
+2018-09-25 12:57:15,451 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: dep22,dd1,Level1
+2018-09-25 12:57:15,451 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: dep22,dd2,Level1
+2018-09-25 12:57:15,452 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: dep22,dd3,Level1
+2018-09-25 12:57:15,452 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: dep22,dd4,Level1
+2018-09-25 12:57:15,453 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: dep21,job1,Level2
+2018-09-25 12:57:15,454 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: dep21,job3,Level2
+2018-09-25 12:57:15,454 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: dd1,NO_FURTHER_DEPENDENCY,Level3
+2018-09-25 12:57:15,455 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: dd2,NO_FURTHER_DEPENDENCY,Level4
+2018-09-25 12:57:15,455 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: dd3,NO_FURTHER_DEPENDENCY,Level5
+2018-09-25 12:57:15,458 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: dd4,NO_FURTHER_DEPENDENCY,Level6
+2018-09-25 12:57:15,460 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: job1,dep2,Level7
+2018-09-25 12:57:15,460 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: job1,dep1,Level7
+2018-09-25 12:57:15,461 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: job1,dep3,Level7
+2018-09-25 12:57:15,463 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: job1,dep4,Level7
+2018-09-25 12:57:15,463 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: job1,dep5,Level7
+2018-09-25 12:57:15,464 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: job3,NO_FURTHER_DEPENDENCY,Level8
+2018-09-25 12:57:15,464 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: dep2,dd1,Level9
+2018-09-25 12:57:15,465 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: dep2,dd2,Level9
+2018-09-25 12:57:15,465 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: dep2,dd3,Level9
+2018-09-25 12:57:15,465 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: dep2,dd4,Level9
+2018-09-25 12:57:15,466 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: dep1,job1,Level10
+2018-09-25 12:57:15,466 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: dep1,job3,Level10
+2018-09-25 12:57:15,466 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: dep3,dd11,Level11
+2018-09-25 12:57:15,467 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: dep3,dd12,Level11
+2018-09-25 12:57:15,467 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: dep3,dd13,Level11
+2018-09-25 12:57:15,467 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: dep3,dd14,Level11
+2018-09-25 12:57:15,468 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: dep4,dd111,Level12
+2018-09-25 12:57:15,468 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: dep4,dd112,Level12
+2018-09-25 12:57:15,468 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: dep4,dd113,Level12
+2018-09-25 12:57:15,469 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: dep4,dd114,Level12
+2018-09-25 12:57:15,471 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: dep5,dd5111,Level13
+2018-09-25 12:57:15,472 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: dep5,dd5112,Level13
+2018-09-25 12:57:15,472 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: dep5,dd5113,Level13
+2018-09-25 12:57:15,473 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: dep5,dd5114,Level13
+2018-09-25 12:57:15,473 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: dd11,NO_FURTHER_DEPENDENCY,Level14
+2018-09-25 12:57:15,473 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: dd12,NO_FURTHER_DEPENDENCY,Level15
+2018-09-25 12:57:15,474 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: dd13,NO_FURTHER_DEPENDENCY,Level16
+2018-09-25 12:57:15,474 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: dd14,NO_FURTHER_DEPENDENCY,Level17
+2018-09-25 12:57:15,475 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: dd111,NO_FURTHER_DEPENDENCY,Level18
+2018-09-25 12:57:15,475 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: dd112,NO_FURTHER_DEPENDENCY,Level19
+2018-09-25 12:57:15,475 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: dd113,NO_FURTHER_DEPENDENCY,Level20
+2018-09-25 12:57:15,476 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: dd114,NO_FURTHER_DEPENDENCY,Level21
+2018-09-25 12:57:15,476 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: dd5111,NO_FURTHER_DEPENDENCY,Level22
+2018-09-25 12:57:15,477 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: dd5112,NO_FURTHER_DEPENDENCY,Level23
+2018-09-25 12:57:15,477 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: dd5113,NO_FURTHER_DEPENDENCY,Level24
+2018-09-25 12:57:15,478 [1] INFO  AutoSys_JobDependency_Crawler.DependencyCrawler - Master Dependency List: dd5114,NO_FURTHER_DEPENDENCY,Level25

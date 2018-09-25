@@ -22,13 +22,14 @@ namespace AddStatusAttribute
             Console.WriteLine("The file is at " + jilFilePath);
             Console.WriteLine("Enter the string (ON_ICE, ON_HOLD, SUCCESS, FAILURE, INACTIVE, TERMINATED) for the status attribute: ");
             string statusAttribute = Console.ReadLine();
+            string statusFileName = null;
             if (File.Exists(jilFilePath))
             {
                 asj.jilFileReader = new StreamReader(jilFilePath);
                 string fileName = Path.GetFileNameWithoutExtension(jilFilePath);
                 string folderName = Path.GetDirectoryName(jilFilePath);
                 string copyFileName = folderName + "\\"+fileName + "_copy.txt";
-                string statusFileName = folderName + "\\"+fileName + "_status.txt";
+                statusFileName = folderName + "\\"+fileName + "_status.txt";
                 asj.statusJilWriter = new StreamWriter(statusFileName);
                 File.Copy(jilFilePath, copyFileName,true);
                 string currentJilLine = null;
@@ -47,6 +48,45 @@ namespace AddStatusAttribute
             }
             asj.statusJilWriter.Close();
             asj.jilFileReader.Close();
+            AddStatusAttribute.addEmailAttributes(statusFileName);
+        }
+
+        public static void addEmailAttributes(string jilFilePath)
+        {
+            StreamReader jilFileReader;
+            StreamWriter jilFileWriter;
+            if(File.Exists(jilFilePath))
+            {
+                jilFileReader = new StreamReader(jilFilePath);
+                string fileName = Path.GetFileNameWithoutExtension(jilFilePath);
+                string folderName = Path.GetDirectoryName(jilFilePath);
+                string copyFileName = folderName + "\\" + fileName + "_statuscopy.txt";
+                string statusFileName = folderName + "\\" + fileName + "_WithEmailAttributes.txt";
+                jilFileWriter = new StreamWriter(statusFileName);
+                File.Copy(jilFilePath, copyFileName, true);
+                string currentJilLine = null;
+                while ((currentJilLine = jilFileReader.ReadLine()) != null)
+                {
+                    if (currentJilLine.Contains("insert_job:"))
+                    {
+
+                        jilFileWriter.WriteLine(currentJilLine);
+                        jilFileWriter.WriteLine("alarm_if_fail: 1 ");
+                        jilFileWriter.WriteLine("alarm_if_terminated: 1 ");
+                        jilFileWriter.WriteLine("notification_template: email1 ");
+                        jilFileWriter.WriteLine("notification_alarm_types: ALL ");
+                        jilFileWriter.WriteLine("send_notification: F");
+                        jilFileWriter.WriteLine("notification_emailaddress: iscomputeroperations@fastenal.com ");
+                        continue;
+                    }
+                    jilFileWriter.WriteLine(currentJilLine);
+
+                }
+                jilFileWriter.Close();
+                jilFileReader.Close();
+            }
+           
+        
         }
     }
 }

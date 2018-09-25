@@ -20,8 +20,10 @@ namespace AutoSys_JobDependency_Crawler
         string databaseUser = null;
         string databasePass = null;
         SqlConnection sqlConnection = null;
-        List<string> masterDependencyList = new List<string>();
-        int levelCounter = 0;
+        static List<string> masterDependencyList = new List<string>();
+        static List<string> jobDependencyList = new List<string>();
+        static List<string> processedJobList = new List<string>();
+        static int levelCounter = 0;
         static void Main(string[] args)
         {
             DependencyCrawler dc = new DependencyCrawler();
@@ -38,16 +40,36 @@ namespace AutoSys_JobDependency_Crawler
             dc.sqlConnection = new SqlConnection(sqlConnectionString);
             dc.sqlConnection.Open();
             logger.Info("Connected to SQL Server on :"+dc.databaseHostName+" \t SQL Server Version: "+dc.sqlConnection.ServerVersion);
-            dc.getDependentJobList(dc.sqlConnection, "OTC_C_NA_DY_ipp003dysb");
-            for (int i = 0; i <= dc.masterDependencyList.Count-1; i++)
+            dc.getDependentJobList(dc.sqlConnection, "job11");
+            int i = 0;
+            //for (int i = 0; i <= jobDependencyList.Count-1; i++)
+            while(jobDependencyList.Count!=0)
             {
-                string condJob = dc.masterDependencyList[i].Split(',')[1].Trim();
-                logger.Debug("Getting Dependent job for : " + condJob);
-                dc.getDependentJobList(dc.sqlConnection, condJob);
+                //string condJob = masterDependencyList[i].Split(',')[1].Trim();
+                string condJob = jobDependencyList[i].Trim();
+                if(!processedJobList.Contains(condJob))
+                {
+                    dc.getDependentJobList(dc.sqlConnection, condJob);
+                    processedJobList.Add(condJob);
+                    jobDependencyList.Remove(condJob);
+                }
+               
+                else
+                {
+                    logger.Debug("Job " + condJob + " already processed for dependencies. Skipping");
+                    jobDependencyList.Remove(condJob);
+                    continue;
+                }
+                
+                
+            }
+            foreach (string v in masterDependencyList)
+            {
+                logger.Info("Master Dependency List: " + v);
             }
             dc.closeDBConnections(dc.sqlConnection);
         }
-
+        
         private int getJobID(SqlConnection sql,string jobName)
         {
             int joid = 0;
@@ -72,12 +94,13 @@ namespace AutoSys_JobDependency_Crawler
             //int levelCounter = 0;
             DependencyCrawler dc1 = new DependencyCrawler();
             int myJobId=dc1.getJobID(sql, jobName);
-            string getDependentJobsSQL = "select cond_job_name from ujo_job_cond where joid=@jobid and (type='s' or type='S' or type='f' or type='F' or type='t' or type='T' or type='n' or type='N' or type='d' or type='D' or type='e' or type='E')";
+            string getDependentJobsSQL = "select cond.cond_job_name from ujo_job_cond cond,ujo_job job where cond.joid=job.joid and job.joid=@jobid and (type='s' or type='S' or type='f' or type='F' or type='t' or type='T' or type='n' or type='N' or type='d' or type='D' or type='e' or type='E') and (job.is_active='1' and job.is_currver='1')";
             SqlCommand sqlCmd = new SqlCommand(getDependentJobsSQL, sql);
             sqlCmd.Parameters.AddWithValue("jobid", myJobId);
             string depJobName = null;
             //List<string> dependentJobList = new List<string>();
             logger.Info("SQL Server connection state: " + sql.State);
+            logger.Debug("Getting dependent jobs for : " + jobName);
             SqlDataReader sqlReader = sqlCmd.ExecuteReader();
 
             if(sqlReader.HasRows)
@@ -85,12 +108,19 @@ namespace AutoSys_JobDependency_Crawler
                 while(sqlReader.Read())
                 {
                     depJobName = sqlReader.GetString(sqlReader.GetOrdinal("cond_job_name"));
-                    logger.Debug("Dep Job found: " + depJobName);
-                    masterDependencyList.Add(jobName+","+depJobName+",Level"+dc1.levelCounter);
+                    logger.Debug("Dep Job found: "+depJobName+" for job: "+jobName);
+                    masterDependencyList.Add(jobName+","+depJobName+",Level"+levelCounter);
+                    jobDependencyList.Add(depJobName);
                 }
                 
             }
-            dc1.levelCounter++;
+            else
+            {
+                depJobName = "NO_FURTHER_DEPENDENCY";
+                logger.Debug("Dep Job found: " + depJobName + " for job: " + jobName);
+                masterDependencyList.Add(jobName + "," + depJobName + ",Level" + levelCounter);
+            }
+            levelCounter++;
             /*foreach(string condJobString in masterDependencyList)
             {
                 string condJob = condJobString.Split(',')[1].Trim();
